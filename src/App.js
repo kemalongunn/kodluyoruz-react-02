@@ -1,9 +1,13 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
+import TodoContacts from "./todo-components";
+
 
 function App() {
   return (
-    <h1>KODLUYOURUZ CHALLENGE-02</h1>
+    <div className="todoapp">
+      <TodoContacts/>
+    </div>
   );
 }
 
